@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://daf6ire0ihbh6"]
+
+[ext_resource type="Texture2D" uid="uid://bv1x4g1y7qrup" path="res://Spaceship_big.png" id="1_3vyb7"]
+
+[node name="player" type="Area2D" unique_id=144337648]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1899628397]
+position = Vector2(-2.2737368e-13, 0)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_3vyb7")
