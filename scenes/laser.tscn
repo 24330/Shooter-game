@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://urfvod04uoc7"]
+
+[ext_resource type="Script" uid="uid://dxu0808addeed" path="res://scripts/laser.gd" id="1_a7dhc"]
+[ext_resource type="Texture2D" uid="uid://1r1d2atvn7s0" path="res://New Piskel-1.png.png" id="1_fn5yt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6vqwg"]
+size = Vector2(49, 23)
+
+[node name="laser" type="Area2D" unique_id=1473372311]
+script = ExtResource("1_a7dhc")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=690812817]
+scale = Vector2(0.06022136, 0.060221355)
+texture = ExtResource("1_fn5yt")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1224464044]
+shape = SubResource("RectangleShape2D_6vqwg")
