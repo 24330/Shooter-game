@@ -17,3 +17,5 @@ func _process(delta):
 	if Input.is_action_just_pressed("shoot"):
 		#Make Laser
 		var laser = laser.instantiate()
+		laser.position = position
+		get_parent().add_child(laser)
